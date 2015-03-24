@@ -10,5 +10,16 @@ package SourceClass;
  * @author heavydude
  */
 public class PenumpangOnsite {
-    
+    private String statusBayarTiket;
+	private int TiketOnline[];
+	
+	public PenumpangOnsite(String namaPenumpang , String alamat , String noKTP ){
+		super(namaPenumpang,alamat,noKTP);
+	}
+	public void setstatusBayarTiket(String statusBayarTiket){
+		this.statusBayarTiket=statusBayarTiket;
+	}
+	public String getStatusbayarTiket(){
+		return statusBayarTiket;
+	}
 }
